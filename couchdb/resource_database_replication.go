@@ -4,7 +4,7 @@ import (
 	"context"
 
 	"github.com/hashicorp/terraform/helper/schema"
-	couchdb "github.com/nicolai86/couchdb-go"
+	couchdb "github.com/blue-white-inc/couchdb-go"
 )
 
 func resourceDatabaseReplication() *schema.Resource {
