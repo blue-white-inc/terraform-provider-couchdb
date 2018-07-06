@@ -27,6 +27,7 @@ type View struct {
 type DesignDocument struct {
 	Document
 	Language string          `json:"language"`
+	ValidateDocUpdate string `json:"validate_doc_update"`
 	Views    map[string]View `json:"views"`
 }
 
