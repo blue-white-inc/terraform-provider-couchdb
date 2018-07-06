@@ -16,6 +16,14 @@ Requirements
 
 Building The Provider
 ---------------------
+After installing golang, set the $GOPATH and $GOROOT to point to the correct path. (i.e $GOPATH=/root/go, $GOROOT=/usr/local/go). Do so by editing `.bash_profile` in the root directory
+```
+export GOROOT=/usr/local/go
+export PATH=$PATH:$GOROOT/bin
+
+export GOPATH=/root/go
+```
+Then execute `source ~/.bash_profile`
 
 Clone repository to: `$GOPATH/src/github.com/nicolai86/terraform-provider-couchdb`
 
