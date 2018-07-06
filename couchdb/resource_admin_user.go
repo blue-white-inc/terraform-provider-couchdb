@@ -5,7 +5,7 @@ import (
 	"fmt"
 
 	"github.com/hashicorp/terraform/helper/schema"
-	couchdb "github.com/blue-white-inc/couchdb-go"
+	couchdb "github.com/nicolai86/couchdb-go"
 )
 
 func resourceAdminUser() *schema.Resource {
