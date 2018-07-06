@@ -3,7 +3,7 @@ package couchdb
 import (
 	"net/http"
 
-	couchdb "github.com/nicolai86/couchdb-go"
+	couchdb "github.com/blue-white-inc/couchdb-go"
 )
 
 // Config contains couchdb configuration values
