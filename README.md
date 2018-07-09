@@ -25,17 +25,17 @@ export GOPATH=/root/go
 ```
 Then execute `source ~/.bash_profile`
 
-Clone repository to: `$GOPATH/src/github.com/nicolai86/terraform-provider-couchdb`
+Clone repository to: `$GOPATH/src/github.com/blue-white-inc/terraform-provider-couchdb`
 
 ```sh
-$ mkdir -p $GOPATH/src/github.com/nicolai86; cd $GOPATH/src/github.com/nicolai86
-$ git clone git@github.com:nicolai86/terraform-provider-couchdb
+$ mkdir -p $GOPATH/src/github.com/blue-white-inc; cd $GOPATH/src/github.com/blue-white-inc
+$ git clone git@github.com:blue-white-inc/terraform-provider-couchdb
 ```
 
 Enter the provider directory and build the provider
 
 ```sh
-$ cd $GOPATH/src/github.com/nicolai86/terraform-provider-couchdb
+$ cd $GOPATH/src/github.com/blue-white-inc/terraform-provider-couchdb
 $ make build
 ```
 
